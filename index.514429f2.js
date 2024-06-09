@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll("form input").forEach(function(e){var t=document.createElement("label");t.className="field-label",t.setAttribute("for",e.id);var n=e.name.replace(/([a-z])([A-Z])/g,"$1 $2").replace(/\b\w/g,function(e){return e.toUpperCase()});t.textContent=n,e.setAttribute("placeholder",n),e.parentElement.insertBefore(t,e)})});
+//# sourceMappingURL=index.514429f2.js.map
